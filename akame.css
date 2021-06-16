@@ -1,0 +1,563 @@
+body{
+	
+	font-family: 'PT Serif', serif;	
+}
+.row{
+	margin: 0;
+}
+.space{
+	margin: 20px;
+}
+
+.headercontaint1 ,.headercontaint2 p{
+	color: white;
+	font-size: 16px;
+}
+header{
+	padding-top: 13px;
+	background-color:black;
+	height: 50px;
+}
+.headercontaint1{
+	text-align: left;
+	float: left;
+    overflow: hidden;
+}
+
+.headercontaint2{
+	text-align: right;
+	float: right;
+    overflow: hidden;
+}
+.mainheader {
+	padding: 20px;
+}
+.logoName{
+	text-align: left; 
+}
+.list-inline {
+	margin:0px 0px 0px 0px;
+	text-align: right;
+	padding:0px 0px 0px 5px;
+	font-size: 20px;
+}
+.list-inline li button{
+	color: #ccc;
+	border-radius:45px;
+	border-color: black;
+}
+.list-inline li button:hover{
+ 	color:orange;
+ 	transition: 0.6s;
+}
+
+.list-inline   a{
+	color: black;
+	padding: 10px;
+}
+.list-inline a:hover{
+	color: red;
+	transition: 0.5s;
+}
+.carousel-caption{
+	position: absolute;
+	top: 70px;
+}
+
+.carousel-caption h3{
+	position: absolute;
+    top: 70px;
+    padding: 0px;
+    margin-left: -159px;
+	font-size: 50px;
+	text-align: left;
+	color: black;
+}
+.carousel-caption p{
+	 text-align: left;
+    color: black;
+    margin-top: 223px;
+    margin-left: -154px;
+    padding: -5px;
+    font-size: 17px;
+}
+
+.carousel-caption .btn {
+    text-shadow: none;
+    float: left;
+    border-radius: 19px;
+    background-color: burlywood;
+    color: azure;
+}
+ .image2{
+	margin-top: 20px;
+}
+.maincontaint {
+    margin-top: 53px;
+}
+
+.containt2{
+	margin-top:30% ;
+}
+.containt1relative{
+	position: relative;
+}
+.containt1 {
+	position: absolute;
+    top: 200px;
+    right: 10px;
+}
+ section .containt2 p{
+  font-size: 20px;
+  	color: #ccc;
+}
+section .containt1 p{
+	font-size: 20px;
+    color: #ccc;
+}
+ section .containt,.containt2 h3{
+ 	color:black;
+	font-size: 40px;
+}
+.containt , containt2{
+	margin-top: 40px;
+}
+.services h3{
+	text-align: center;
+	font-size: 50px;
+}
+.services p{
+	text-align: center;
+	font-size: 20px;
+}
+.box{
+	background-color: #f2f2f2;
+	margin-top: 30px;
+	padding:20px;
+	border:solid #ccc 0px;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #0000001c;
+}
+.box:hover{
+	color: red;
+	background-color: white;
+	transition: 0.4s;
+	transform: skew(10);
+	overflow: hidden;
+	box-shadow: 10px 10px 10px #ccc;
+}
+.pngimg{
+	margin-left: 100px;
+	margin-top: 40px;
+}
+.box h3{
+	margin-top: 20px;
+	text-align: center;
+	color:orange;
+}
+.box p{
+	text-align: center;
+}
+.wholesection{
+	position: relative;
+	background-color: #f2f2f2;
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+.bigimage img{
+	width: 100%;
+	margin-left:34px; 
+	box-shadow: 10px 10px 10px #ccc;
+}
+.textaside {
+    position: absolute;
+    top: 30px;
+    left: 126px;
+    text-align: left;
+}
+.textaside h3{
+	margin-top: 10%;
+	font-size: 40px;
+	text-align: left;
+}
+ ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.textaside p{
+	color: black;
+    text-align: left;
+}
+.textaside ul li {
+	padding-top: 9px;
+	font-size: 15px;
+	color: black;
+	list-style: none;
+}
+.textaside ul li i{
+	padding-top: 9px;
+	color: orange;
+}
+.secondmenu ul
+{
+	text-align: center;
+	padding: 20px;
+}
+
+.secondmenu ul li{
+	margin: 30px; 
+}
+.secondmenu ul li a:hover{
+	color: red;
+	transition: 0.05s;
+}
+.hairimages ul{
+	list-style: none;
+	margin: 20px;
+	padding: 0;
+}
+.leftspace{
+	height: 230px;
+	margin-top: 30px;
+	margin-bottom: 30px; 
+}
+.left1 {
+	position: relative;
+	width: 250px;
+	height: 200px;
+	float: left;
+	
+	overflow: hidden;
+	
+}
+.left1 img{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.overlay i{
+	color: orange;
+	margin-left: 20%;
+}
+.overlay{
+	position: absolute;
+	top: 0px;
+	bottom:0px;
+	left: 0px;
+	width:100%;
+	height: 0;
+	right: 0px;
+	opacity: 0;
+	overflow: hidden;
+}
+.overlay h2{
+	text-align: center;
+	margin-top: 30px;
+	color: orange;
+}
+.overlay p{
+	color: white;
+}
+.left1:hover>img{
+	transform: scale(1.3);
+	overflow: hidden;
+	transition: 0.5s;
+}
+.left1:hover > .overlay{
+	transform: skew(2);
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+	transition: 0s;
+	height: 100%;
+	opacity: 1;
+	
+}
+.left2 {
+	position: relative;
+	width: 250px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+}
+.left2 img{
+	overflow: hidden;
+	
+}
+.left2:hover>img{
+
+	transform: scale(1.3);
+	overflow: hidden;
+	transition: 0.5s;
+}
+.left2:hover > .overlay{
+	transform: skew(2);
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+	transition: 0s;
+	height: 100%;
+	opacity: 1;
+	
+}
+.imagesleft img{
+	box-shadow: 10px 10px 10px #ccc;
+	width:250px;
+	height:200px;
+}
+
+
+.midspace{
+	height: 500px;
+	width: 500px;
+	margin-left:10px;
+	margin-right: 10px; 
+	overflow: hidden;
+}
+
+.mdimg {
+	height: 500px;
+	width: 500px;
+	overflow: hidden;
+	position: relative;
+	
+}
+.midspace li p{
+	margin-top: 30px;
+}
+.overlay{
+	position: absolute;
+	top: 0px;
+	bottom:0px;
+	left: 0px;
+	width:100%;
+	height: 0;
+	right: 0px;
+	opacity: 0;
+	overflow: hidden;
+}
+.midimage img{
+	height: 500px;
+	width: 500px;
+	overflow: hidden;
+	
+}
+.midimage:hover>img{
+	
+	transform: scale(1.3);
+	overflow: hidden;
+	transition: 0.5s;
+}
+.midimage:hover > .overlay{
+	transform: skew(2);
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+	transition: 0s;
+	height: 100%;
+	opacity: 1;
+}
+
+.rightspace{
+	height: 230px;
+	margin-top: 30px;
+	margin-bottom: 30px; 
+}
+.right1 {
+	position: relative;
+	width: 250px;
+	height: 200px;
+	float: right;
+	
+	overflow: hidden;
+	
+}
+.right1 img{
+	height: 200px;
+	width: 250px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.right1:hover>img{
+	transform: scale(1.3);
+	overflow: hidden;
+	transition: 0.5s;
+}
+.right1:hover > .overlay{
+	transform: skew(2);
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+	transition: 0s;
+	height: 100%;
+	opacity: 1;
+	
+}
+.right2 {
+	position: relative;
+	width: 250px;
+	height: 200px;
+	float: right;
+	
+	overflow: hidden;
+	
+}
+.right2 img{
+	height: 200px;
+	width: 250px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.right2:hover>img{
+	transform: scale(1.3);
+	overflow: hidden;
+	transition: 0.5s;
+}
+.right2:hover > .overlay{
+	transform: skew(2);
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+	transition: 0s;
+	height: 100%;
+	opacity: 1;
+	
+}
+
+
+
+.ourexperts{
+	background-color: #f2f2f2;
+}
+.expertimg img{
+	box-shadow: 10px 10px 10px #ccc;
+	width: 600px;
+	height: 500px;
+}
+.aboutexperts{
+	margin-left: 20%;
+}
+
+.aboutexperts h3 {
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	padding: 10px;
+	margin-top: 20px;
+}
+.aboutexperts p{
+	text-align: center;
+	padding: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.aboutexperts{
+	padding: 20px;
+}
+.aboutexperts img{
+	margin-left: 20px;
+	float: left;
+	
+	overflow: hidden;
+}
+.list-inline li {
+    padding: -13px;
+    padding: 13px;
+}
+.list-inline img{
+	width: 250px;
+	height: 250px;
+	
+	box-shadow: 10px 10px 10px #ccc;
+}
+.list-inline img:hover{
+	transform: translate(4px);
+	transition: 0.6s;
+}
+.ourhair-dressers{
+	margin-top: 40px;
+}
+.list-inline h5,p{
+	text-align: center;
+}
+.list-inline h5:hover{
+	transform: translate(4px);
+	transition: 0.6s;
+	color: red;
+}
+.piclatest-news{
+	margin-top: 45px;
+}
+.piclatest-news img{
+	
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	box-shadow: 10px 10px 10px #ccc;
+}
+.piclatest-news p{
+	color: grey;
+	margin-top: 20px;
+	font-size: 12px;
+}
+.lastcontaint {
+	position: relative;
+	margin-top: 30px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+}
+.paragraph {
+    position: absolute;
+    top: 129px;
+    left: 10px;
+}
+.last-para {
+
+	margin-top: 30px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+}
+.social-icons {
+  max-width:300px;
+  margin:auto;
+  background:#fff;
+  padding:15px;
+  margin-top:20px;
+  
+}
+.social-icons ul{
+	text-align: center;
+}
+.social-icons li{
+	border-radius: 30px;
+	box-shadow: 3px 3px 3px #ccc; 
+}
+ i.fab.fa-facebook{
+	color: #0073ff;
+	
+}
+i.fab.fa-whatsapp{
+	background-color:  #00ff00;
+	border-radius: 15px;
+	color: white;
+	
+	}
+
+ i.fab.fa-instagram{
+
+	background-color: #cc0085;
+	color: white;
+	
+	}
+
+ i.fab.fa-twitter{
+	color: #0073ff;
+	
+	}
+
